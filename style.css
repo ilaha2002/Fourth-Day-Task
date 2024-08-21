@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body, .container, .Ramda, .taskbar, .maindiv,  .menu, nav h2,  main, footer, .footerDiv, .footerDiv h2 {
+    display: flex;
+}
+.Ramda, .element, .element2, .hover, nav h2, .footerDiv h2, h2 {
+    font-family: "Roboto", sans-serif;
+}
+.Ramda, .taskbar, .element, .element2, .hover, nav h2, .footerDiv h2, h2 {
+    font-weight: 400;
+}
+.container, .menu, nav h2, main {
+    flex-direction: column;
+}
+body, .taskbar, .menu, footer {
+   align-items: center; 
+}
+.maindiv,  main, footer, .footerDiv{
+    justify-content: space-between;
+}
+body{
+    justify-content: center;
+}
+.container{
+    justify-content: space-evenly;
+    height: 100vh;                        /* ? */
+}
+.Ramda {
+    font-size: 70px;
+}
+font{
+    color: #4bcaff; 
+}
+.taskbar {
+    color: azure;
+    background-color:rgba(53, 68, 79, 1);
+    font-size: 17px;
+}
+.element, .element2, .hover {
+    border:1px solid white;
+    padding: 20px 45px;
+}
+.element1 {
+    border:1px solid white;
+    padding: 30px;
+    width: 100px;
+}
+.element2{
+    width: 250px;
+}
+nav .hover {
+    background-color: rgba(34, 47, 58, 1);
+}
+ .menu {
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.319);
+    border-width: 1px;
+    width: 319px;
+    height: 336px;
+    color: rgba(72, 88, 99, 1);
+} 
+nav .hover2{
+    padding-left: 85px;
+    background-color: rgba(219, 219, 219, 1);
+    width: 234px;
+    color: black;
+    font-weight: 500;
+}
+nav h2{
+    width: 200px;
+    height: 65px;
+    justify-content: center;
+}
+main{
+    width: 780px;
+    height: 700px;
+    font-size: 18px;
+    color: rgba(44, 44, 44, 1);
+    margin-left: 52px;
+}
+img{
+    width: 779px;
+    height: 430px;
+    border-color:rgba(0, 0, 0, 0.319);
+    border-width: 1px;
+}
+footer {
+    padding: 0px 40px;
+    height: 50px;
+    background-color: rgba(99, 105, 110, 0.48);
+}
+.footerDiv{
+    width: 800px;
+    padding-top: 5px;
+}
+.footerDiv h2{
+    font-size: 22px;
+}
+h2 {
+    font-size: 19px;
+}
+.hover3{
+    color: rgba(49, 129, 166, 1); 
+    /* text-decoration: underline; */
+    border-bottom: solid 1px; 
+    padding-bottom: 6px;
+}
